@@ -3,7 +3,7 @@ import os
 
 import networkx as nx
 
-def load_graph(Input_path:str) -> tuple[nx.Graph, dict]:
+def load_tikz(Input_path:str) -> tuple[nx.Graph, dict]:
     '''
     This function generates a networkx graph from the provided input path.
 
